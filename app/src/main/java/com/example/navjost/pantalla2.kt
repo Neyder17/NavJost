@@ -31,9 +31,9 @@ fun Pantalla2(navController: NavController) {
             contentScale = ContentScale.Fit
         )
         Spacer(modifier = Modifier.height(16.dp))
-        Text(text = "Pantalla 2")
+        Text(text = "Otra gran maravilla del meme HONSE")
         Spacer(modifier = Modifier.height(16.dp))
-        Button(onClick = { navController.navigate("Otra gran maravilla del meme HONSE") }) {
+        Button(onClick = { navController.navigate("pantalla3") }) {
             Text(text = "Ir a Pantalla 3")
         }
         Button(onClick = { navController.navigate("pantalla1") }) {
